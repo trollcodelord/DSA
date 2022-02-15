@@ -36,7 +36,7 @@ public class LeetCode875 {
 			
 			max = Math.max(a, max);
 		}
-		
+	
 		if(h == arr.length) {
 			
 			return max;
