@@ -23,7 +23,7 @@ public class CyclicSort {
 		
 		while( i< arr.length) {
 			
-			int current = arr[i] -1;
+			int current = arr[i]-1;
 			
 			if(arr[i] != arr[current]) {
 				
