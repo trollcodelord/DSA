@@ -33,8 +33,8 @@ public class FebTwentySix {
 		
 		for(int i=0; i<max ; i++) {
 			
-			int n1 = (i> arr1.length) ? 0 : Integer.parseInt(arr1[i]);
-			int n2 = (i> arr2.length) ? 0 : Integer.parseInt(arr2[i]);
+			int n1 = (i>= arr1.length) ? 0 : Integer.parseInt(arr1[i]);
+			int n2 = (i>= arr2.length) ? 0 : Integer.parseInt(arr2[i]);
 		
 		if(n1 > n2)
 			return 1;
